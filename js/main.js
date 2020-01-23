@@ -90,6 +90,33 @@ $(document).ready(function () {
     $('#totop').click(function () {
         $('html , body').animate({scrollTop:0},1500);
     });
+
+    $('.colors ').hover(function () {
+        if($('.colors').hasClass('colors_opened'))
+        {
+            $('.colors').removeClass('colors_opened').addClass('colors_closed');
+        }else{
+            $('.colors').removeClass('colors_closed').addClass('colors_opened');
+        }
+
+    });
+
+
+
+    $('.colors ._color').click(function () {
+        var path="css/" + $(this).data('value') + "-style.css";
+        $('#template_color').attr('href',path);
+        $('.colors').toggleClass('colors_closed');
+        if ($(this).data('value') == 'default'){
+            $('.colors .fa').css('color','#fff');
+
+        }else{
+            $('.colors .fa').css('color',$(this).data('value'));
+
+        }
+
+    });
+
 });
 
 

@@ -29,7 +29,7 @@ when an unknown printer took a galley of type and scrambled it to make a type sp
 }
 body{
     /*FOR TESTING*/
-height: 1500px;
+    height: 1500px;
 }
 .colors{
     float: left;
@@ -66,7 +66,7 @@ height: 1500px;
     opacity: 1;
 }
 .colors .defult{
-background-color: #1abc97;
+    background-color: #1abc97;
 }
 .colors .orange{
     background-color: orangered;
@@ -211,17 +211,17 @@ background-color: #1abc97;
 
 }
 .btn-success{
-    background-color: forestgreen;
+    background-color: green;
 }
 .btn-danger{
     background-color: crimson;
 }
 .btn-success:hover{
-    color: forestgreen;
+    color: green;
     background-color: #FFFFFF;
 }
 .btn-danger:hover{
-color: crimson;
+    color: crimson;
     background-color: #fff;
 }
 /*
@@ -283,7 +283,7 @@ Features
     border: 5px solid transparent;
 }
 .features .feat .feat-icon:hover{
-background-color: transparent;
+    background-color: transparent;
     border:5px solid #1abc97;
 }
 .features .feat .feat-icon:hover i{
@@ -422,13 +422,13 @@ Start Our Team
 }
 .our-team .our-team-text p{
     line-height: 1.5;
-text-align: left;
-font-weight: normal;
-text-align: justify;
-color:#a7a0a0;
-font-size: 14px;
-margin: 0px;
-padding: 12px 0;
+    text-align: left;
+    font-weight: normal;
+    text-align: justify;
+    color:#a7a0a0;
+    font-size: 14px;
+    margin: 0px;
+    padding: 12px 0;
 }
 .separator{
     display: block;
@@ -437,7 +437,7 @@ padding: 12px 0;
     margin: 30px;
 }
 .overlay{
-position: absolute;
+    position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
@@ -705,7 +705,7 @@ Our Works
     right: 15px;
 }
 .our-works .gallary .mix .more-info-heart{
-   display: none;
+    display: none;
 }
 .our-works .gallary .mix:hover .more-info-heart{
     display: block;
